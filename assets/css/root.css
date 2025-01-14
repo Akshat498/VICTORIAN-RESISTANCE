@@ -154,3 +154,17 @@
 .bg-blue{
     background-color: var(--fc-blue);
 }
+
+@media (max-width:767.98px){
+:root{
+    --fs-xl: 48px;
+    --fs-lg: 38px;
+}
+} 
+
+@media (max-width:424.98px){
+    :root{
+        --fs-xl: 28px;
+        --fs-lg: 28px;
+    }
+    } 

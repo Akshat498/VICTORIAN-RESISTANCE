@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VICTORIAN RESISTANCE</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/svg/Vector.svg" type="image/x-icon">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- sliders-link  -->
@@ -19,59 +21,65 @@
 </head>
 
 <body class="bg-blue">
+
     <section class="bg-img position-relative">
         <div class="container">
-            <nav class="py-20 position-relative z-3 nav">
-                <div class="menu-icon-bar">
-                    <div class="d-flex align-items-center  text-decoration-none" href="">
-                        <img src="/assets/images/svg/Vector.svg" alt="">
-                        <a class="fc-sky-blue text-decoration-none" href="">VICTORIAN RESISTANCE</a>
-                    </div>
-
-                    <input type="checkbox" id="openslider" hidden>
-                    <label for="openslider" class="me-10">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                    <ul class="links gap-24 d-flex align-items-center justify-content-space-between w-100">
-                        <li class="d-flex align-items-center justify-content-center w-100">
-                            <ul class="d-flex gap-24 flex-direction-column-786px mx-auto ">
-                                <li><a class="fc-white text-decoration-none" href="">PA02-SIERRA-11 SCOREBOARD</a></li>
-                                <li><a class="fc-white text-decoration-none" href="">SMURFLING GUIDE</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="d-flex align-items-center gap-20">
-                                <li><button class="buton-1 fw-bold fc-dark-blue fs-sm bg-sky-blue">LOGIN</button>
-                                </li>
-                                <li><button class="buton-2 d-flex fw-bold fs-sm fc-sky-blue bg-dark-blue ">SIGN
-                                        UP</button>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+            <nav class="d-flex nav-bar align-items-center">
+                <div>
+                    <img class="" src="./assets/images/svg/Vector.svg" alt="logo">
                 </div>
+                <div onclick="navbarbtn()" class="z-5 d-block d-lg-none">
+                    <span class="menu-lines" id="rotats"></span>
+                    <span class="menu-lines" id="transparent"></span>
+                    <span class="menu-lines" id="rotats2"></span>
+                </div>
+
+                <ul id="nav-name" class="list-unstyled nav-link d-flex">
+                    <li class="pt-27 pl-23">
+                        <p class="fs-sm text-center  fc-sky-blue im-text">VICTORIAN RESISTANCE</p>
+                    </li>
+                    <li>
+                        <ul class="d-flex list-unstyled gap-50 pt-27">
+                            <li class="text-decoration-none list-unstyled fc-white">PA02-SIERRA-11 SCOREBOARD</li>
+                            <li class="text-decoration-none list-unstyled fc-white">SMURFLING GUIDE</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-unstyled d-flex gap-2 mt-19">
+                            <li class="text-decoration-none list-unstyled">
+                                <button class="buton-1 z-2 position-relative oswald-font fw-bold fs-sm bg-sky-blue">LOGIN</button>
+                            </li>
+                            <li class="text-decoration-none list-unstyled">
+                                <button class="buton-2 oswald-font fw-bold fs-sm position-relative z-2">SIGN
+                                    UP</button>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
 
             <h1 class="heading fw-normal fs-xl oswald-font text-center mx-auto fc-white m-0">JOIN THE VICTORIAN
                 RESISTANCE</h1>
             <p class="fw-normal fs-sm fc-white text-center text-1 m-0">Defend the world, protect what's yours. Join the
                 Resistance!</p>
-            <button class="buton-3 mx-auto d-flex fc-dark-blue bg-sky-blue fw-bold fs-md oswald-font ">JOIN THE
+            <button class="buton-3 mx-auto d-flex fw-bold fs-md oswald-font bg-sky-blue">JOIN THE
                 RESISTANT</button>
         </div>
     </section>
 
-    <section>
+    <section class="mt-190 position-relative z-1">
         <div class="container">
             <div class="row">
-                <div class=" col-12 col-lg-5">
-                    <img class="d-flex mx-auto" src="/assets/images/png/iphone-img.png" alt="">
+                <div class=" col-12 col-lg-5 ">
+                    <img class="d-flex mx-auto justify-content-center i-img z-1" src="/assets/images/png/iphone-img.png"
+                        alt="">
+                    <img class="position-absolute elipse-2 " src="/assets/images/svg/Ellipse 4.svg" alt="">
                 </div>
-                <div class=" col-12 col-lg-7">
-                    <h2 class="fw-normal fc-white fs-lg oswald-font  m-0">ABOUT US</h2>
-                    <p class="fs-sm fw-normal fc-white  m-0">Ingress is an augmented reality game that turns the world
+                <div class="col-12 col-lg-7">
+                    <img class="position-absolute triangle-shadow" src="/assets/images/svg/triangle-shadow.svg" alt="">
+                    <h2 class="fw-normal fc-white fs-lg oswald-font pt-30  m-0">ABOUT US</h2>
+                    <p class="fs-sm fw-normal fc-white pt-12  m-0">Ingress is an augmented reality game that turns the
+                        world
                         around
                         you
                         into a battle, <br> with humankind's minds at stake. <br>
@@ -101,31 +109,41 @@
                         gear up to take and hold your area.
                     </p>
 
-                    <div class="d-flex gap-30">
-                        <img src="/assets/images/svg/app-store.svg" alt="">
-                        <img src="/assets/images/svg/google-play.svg" alt="">
+                    <div class=" gap-30">
+                        <a href="https://www.apple.com/in/app-store/"><img src="/assets/images/svg/app-store.svg"
+                                alt=""></a>
+                        <a href="https://play.google.com/store/games"><img src="/assets/images/svg/google-play.svg"
+                                alt=""></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="d-flex  min-vh-100  pb-5">
-        <div class=" w-100 mx-auto">
-            <h4 class=" text-center text-white fs-1 dm-sans-font fw-normal lh-56 pb-40">Your world is the game board, and your mind is at stake.</h4>
-            <div class="meet-our-slider slider-1">
-
-                <img src="/assets/images/png/slide-img-1.png" alt="women-img" class="border-radius- im-1 w-100">
-
-
-
-                <img src="/assets/images/png/slide-img-2.png" alt="men-img" class="border-radius- w-100">
-
-
-
-                <img src="/assets/images/png/slide-img-3.png" alt="women-img" class="border-radius-tl-13 w-100 ">
-
-                <img src="/assets/images/png/slide-img-1.png" alt="women-img" class="border-radius-tl-13 w-0 ">
+    <section class="d-flex justify-content-center align-items-center align-content-center flex-column mt-190">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <h2 class="sub-heading fc-white fs-lg fw-normal oswald-font text-center m-0">Your world is the
+                    game board, and your mind is at stake.</h2>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="open-sans-font fw-normal fs-sm fc-white text-center m-0 slide-text">At the
+                heart of Ingress is a desire to bring people together through exploration and teamwork.
+            </p>
+        </div>
+        <div class="animate-slider w-100 ">
+            <div class="mw-494 w-100">
+                <img src="/assets/images/png/slide-img-1.png" alt="slider-img-1" class="w-100 h h-100">
+            </div>
+            <div class="mw-494 w-100">
+                <img src="assets/images/png/slide-img-2.png" alt="slider-img-2" class="w-100 h-100">
+            </div>
+            <div class="mw-494 w-100">
+                <img src="/assets/images/png/slide-img-3.png" alt="slider-img-3" class="w-100 h-100">
+            </div>
+            <div class="mw-494 w-100">
+                <img src="/assets/images/png/slide-img-3.png" alt="slider-img-2" class="w-100 h-100">
             </div>
         </div>
     </section>
