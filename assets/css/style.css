@@ -201,7 +201,6 @@
 }
 
 .Faq-acc .accordion-button:not(.collapsed) {
-    /* background-color: #070D37 !important; */
     box-shadow: unset !important;
     position: relative;
 }
@@ -209,7 +208,8 @@
 .Faq-acc .accordion-button {
     box-shadow: unset !important;
     color: white !important;
-    padding-bottom: 26.17px;
+    margin-bottom: 26.17px;
+    margin-top: 52px;
 }
 
 .Faq-acc .accordion {
@@ -267,7 +267,7 @@
 
 .acc-shadow {
     left: 0;
-    bottom: -10%;
+    bottom: 5%;
 
 }
 
@@ -330,6 +330,7 @@
 .pt-52 {
     padding-top: 52.94px;
 }
+
 
 .pt-24 {
     padding-top: 24.79px;
