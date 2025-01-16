@@ -271,6 +271,10 @@
     margin-top: 198px;
 }
 
+.mb-50 {
+    margin-bottom: 120px;
+}
+
 .shadow-img {
     background-image: url(/assets/images/png/Mask\ group.png);
     background-repeat: no-repeat;
@@ -350,6 +354,10 @@
     opacity: 70%;
 }
 
+.mb-50{
+    margin-bottom: 50px;
+}
+
 .gap-63 {
     gap: 63.26px;
 }
@@ -377,15 +385,6 @@
 
 .mt-60 {
     margin-top: 60px;
-}
-
-.join-btn-2 {
-    padding: 11px 27px 11px 27px;
-    border: none;
-    background: var(--color-sky-blue);
-    color: var(--color-infinite);
-    border-radius: 4px;
-    transition: all 200ms linear;
 }
 
 .phone-img {
@@ -430,8 +429,12 @@
         gap: 53.26px;
     }
 
-    .gap-20{
+    .gap-20 {
         gap: 20px !important;
+    }
+
+    .box {
+        padding-top: 50px !important;
     }
 }
 
@@ -444,9 +447,14 @@
 }
 
 @media (max-width:991.98px) {
-    .br-3{
+    .mt-19 {
+        gap: 20px !important;
+    }
+
+    .br-3 {
         padding: 50px;
     }
+
     .mobile-img {
         position: unset;
     }
@@ -532,6 +540,14 @@
 }
 
 @media (max-width:1439.98px) {
+    .acc-shadow {
+        max-width: 100px;
+    }
+
+    .triangle-img {
+        max-width: 100px;
+    }
+
     .elipse-2 {
         display: none;
     }
