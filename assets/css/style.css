@@ -86,6 +86,18 @@
     display: flex;
 }
 
+.pt-23 {
+    padding-top: 23.96px;
+}
+
+.pb-13 {
+    padding-bottom: 13px;
+}
+
+.mt-254 {
+    margin-top: 254px;
+}
+
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -180,6 +192,227 @@
     opacity: 100% !important;
 }
 
+.Faq-acc .accordion-button:not(.collapsed) {
+    /* background-color: #070D37 !important; */
+    box-shadow: unset !important;
+    position: relative;
+}
+
+.Faq-acc .accordion-button {
+    box-shadow: unset !important;
+    color: white !important;
+    padding-bottom: 26.17px;
+}
+
+.Faq-acc .accordion-button {
+    /* background-color: transparent !important; */
+}
+
+
+.Faq-acc .accordion {
+    --bs-accordion-color: var(--bs-body-color);
+    /* --bs-accordion-bg: #070D37 !important; */
+    --bs-accordion-border-width: var(--bs-border-width);
+    --bs-accordion-border-radius: var(--bs-border-radius);
+    max-width: 1022px;
+    width: 100%;
+}
+
+.Faq-acc .accordion-button::after {
+    background-image: url(/assets/images/svg/acc-arrow.svg) !important;
+    flex-direction: column-reverse;
+    width: 24px;
+    height: 24px;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images/svg/acc-arrow-2.svg) !important;
+    height: 24px;
+    width: 24px;
+}
+
+.Faq-acc .accordion-item {
+    border: 2px solid #39C6FD;
+    position: relative;
+}
+
+.pr-12 {
+    padding-right: 12px;
+}
+
+.pr-14 {
+    padding-right: 13.98px;
+}
+
+.pb-77 {
+    padding-bottom: 77.37px;
+}
+
+.ml-62 {
+    margin-left: 37px;
+}
+
+.mw-680 {
+    max-width: 680px;
+    line-height: 21.79px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.acc-shadow {
+    left: 0;
+    bottom: -10%;
+
+}
+
+.mt-198 {
+    margin-top: 198px;
+}
+
+.shadow-img {
+    background-image: url(/assets/images/png/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-img-2 {
+    background-image: url(/assets/images/png/Group\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.buton-4 {
+    padding: 11px 27px;
+    border-radius: 4px;
+    border: none;
+}
+
+.br-3 {
+    border: 3px solid #39C6FD;
+    border-radius: 10px;
+}
+
+.pt-65 {
+    padding-top: 65.45px;
+}
+
+.pt-10 {
+    padding-top: 10.58px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-89 {
+    margin-bottom: 89.17px;
+}
+
+.ml-73 {
+    margin-left: 73px;
+}
+
+.pt-52 {
+    padding-top: 52.94px;
+}
+
+.pt-24 {
+    padding-top: 24.79px;
+}
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mobile-img {
+    right: 14%;
+    top: 11%;
+    bottom: 1%;
+    position: absolute;
+}
+
+.mb-126 {
+    margin-bottom: 126px;
+}
+
+.pb-60 {
+    padding-bottom: 59.84px;
+}
+
+.footer-text {
+    opacity: 70%;
+}
+
+.gap-63 {
+    gap: 63.26px;
+}
+
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #39C6FD;
+}
+
+.box {
+    max-width: 1140px;
+    background: var(--bg);
+    border: 3px solid var(--fc-sky-blue);
+    border-radius: 10px;
+}
+
+.max-w-582 {
+    max-width: 582px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.join-btn-2 {
+    padding: 11px 27px 11px 27px;
+    border: none;
+    background: var(--color-sky-blue);
+    color: var(--color-infinite);
+    border-radius: 4px;
+    transition: all 200ms linear;
+}
+
+.phone-img {
+    top: -32%;
+    right: 41px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.iphone {
+    max-width: 302.79px;
+    height: 608.46px;
+}
+
+.triangle-img {
+    top: 31%;
+    right: 0%;
+}
+
+@media (max-width:1045.98px) {
+    .max-w-582 {
+        max-width: 500px;
+    }
+}
+
 @media (min-width:991.98px) {
     .nav-bar {
         display: flex;
@@ -196,15 +429,28 @@
     .gap-50 {
         gap: 53.26px;
     }
+
+    .gap-20{
+        gap: 20px !important;
+    }
 }
 
 @media (max-width:1199.98px) {
+
+
     .triangle-shadow {
         bottom: 45%;
     }
 }
 
 @media (max-width:991.98px) {
+    .br-3{
+        padding: 50px;
+    }
+    .mobile-img {
+        position: unset;
+    }
+
     .gap-30 {
         margin-bottom: 70px;
     }
@@ -249,7 +495,7 @@
         z-index: 1;
     }
 
-    .gap-2 {
+    .gap-20 {
         display: flex;
         flex-direction: column;
         margin: auto;
