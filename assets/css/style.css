@@ -7,7 +7,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 198.12px;
+    min-height: 100vh;
+    position: relative;
 }
 
 .bg-img::after {
@@ -15,8 +16,16 @@
     position: absolute;
     width: 1440.49px;
     height: 140.8px;
+    bottom: 15%;
     background: linear-gradient(180deg, rgba(8, 16, 58, 0) 0%, #080E38 100%);
-    bottom: 0%;
+
+}
+
+.fex {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -34,7 +43,6 @@
 .heading {
     max-width: 607.82px;
     line-height: 118.56px;
-    padding-top: 166px;
 }
 
 .text-1 {
@@ -73,7 +81,7 @@
     border: none;
     margin-top: 68.11px;
     color: #070D37;
-    margin-bottom: 64.73px;
+    margin-bottom: 198px;
 }
 
 .pt-12 {
@@ -204,14 +212,8 @@
     padding-bottom: 26.17px;
 }
 
-.Faq-acc .accordion-button {
-    /* background-color: transparent !important; */
-}
-
-
 .Faq-acc .accordion {
     --bs-accordion-color: var(--bs-body-color);
-    /* --bs-accordion-bg: #070D37 !important; */
     --bs-accordion-border-width: var(--bs-border-width);
     --bs-accordion-border-radius: var(--bs-border-radius);
     max-width: 1022px;
@@ -223,12 +225,14 @@
     flex-direction: column-reverse;
     width: 24px;
     height: 24px;
+    rotate: 0;
 }
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(/assets/images/svg/acc-arrow-2.svg) !important;
     height: 24px;
     width: 24px;
+    rotate: 0;
 }
 
 .Faq-acc .accordion-item {
@@ -354,7 +358,7 @@
     opacity: 70%;
 }
 
-.mb-50{
+.mb-50 {
     margin-bottom: 50px;
 }
 
