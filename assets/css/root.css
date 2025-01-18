@@ -1,14 +1,22 @@
 :root {
+    --fs-small: 12px;
     --fs-sm: 16px;
     --fs-md: 20px;
     --fs-lg: 48px;
     --fs-xl: 80px;
-    --fs-2xl: 12px;
-  
+
     --fc-white: #FFFFFF;
     --fc-sky-blue: #39C6FD;
     --fc-dark-blue: #070D37;
     --fc-blue: #070D37;
+
+    --lh-1: 16.34px;
+    --lh-2: 21.79px;
+    --lh-3: 23.71px;
+    --lh-4: 25.15px;
+    --lh-5: 29.64px;
+    --lh-6: 71.14px;
+    --lh-7: 118.56px;
 }
 
 .fs-sm {
@@ -27,8 +35,36 @@
     font-size: var(--fs-xl) !important;
 }
 
-.fs-2xl{
-    font-size: var(--fs-2xl) !important;
+.fs-small {
+    font-size: var(--fs-small) !important;
+}
+
+.lh-1 {
+    line-height: var(--lh-1);
+}
+
+.lh-2 {
+    line-height: var(--lh-2);
+}
+
+.lh-3 {
+    line-height: var(--lh-3);
+}
+
+.lh-4 {
+    line-height: var(--lh-4);
+}
+
+.lh-5 {
+    line-height: var(--lh-5);
+}
+
+.lh-6 {
+    line-height: var(--lh-6);
+}
+
+.lh-7 {
+    line-height: var(--lh-7);
 }
 
 
@@ -65,6 +101,14 @@
     :root {
         --fs-xl: 48px;
         --fs-lg: 38px;
+        --lh-6: 50px;
+        --lh-7: 58px;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --lh-7: 50px;
     }
 }
 
@@ -72,5 +116,6 @@
     :root {
         --fs-xl: 28px;
         --fs-lg: 28px;
+        --lh-6: 40px
     }
 }
