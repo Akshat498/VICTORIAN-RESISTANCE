@@ -190,14 +190,14 @@
     flex-direction: column-reverse;
     width: 24px;
     height: 24px;
-    rotate: 0;
+    transform: rotate(0) !important;
 }
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(/assets/images/svg/acc-arrow-2.svg) !important;
     height: 24px;
     width: 24px;
-    rotate: 0;
+    transform: rotate(0) !important;
 }
 
 .Faq-acc .accordion-item {
@@ -233,14 +233,6 @@
     bottom: 5%;
 }
 
-.mt-198 {
-    margin-top: 198px;
-}
-
-.mb-50 {
-    margin-bottom: 120px;
-}
-
 .shadow-img {
     background-image: url(/assets/images/png/Mask\ group.png);
     background-repeat: no-repeat;
@@ -267,10 +259,6 @@
 
 .pt-10 {
     padding-top: 10.58px;
-}
-
-.mt-60 {
-    margin-top: 60px;
 }
 
 .mb-89 {
