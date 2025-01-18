@@ -94,10 +94,6 @@
     padding-bottom: 13px;
 }
 
-.mt-254 {
-    margin-top: 254px;
-}
-
 .menu-lines {
     width: 30px;
     height: 5px;
@@ -220,13 +216,12 @@
     padding-bottom: 77.37px;
 }
 
-.ml-62 {
+.ml-18 {
     margin-left: 18px;
 }
 
 .mw-680 {
     max-width: 680px;
-    line-height: 21.79px;
 }
 
 .mb-24 {
@@ -288,14 +283,6 @@
 
 .pt-52 {
     padding-top: 52.94px;
-}
-
-.mt-200 {
-    margin-top: 200px;
-}
-
-.mb-126 {
-    margin-bottom: 126px;
 }
 
 .pb-60 {
