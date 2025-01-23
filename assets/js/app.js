@@ -31,7 +31,6 @@ $('.animate-slider').slick({
         }
     ]
 });
-
 const navbarbtn = () => {
     document.getElementById("nav-name").classList.toggle("show-nvabar")
     document.getElementById("rotats").classList.toggle("rotate40")
